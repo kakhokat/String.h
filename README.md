@@ -16,11 +16,17 @@
 ## build
 ```
 cd String_h/src
-make
+make s21_string.a
 ```
-При вызове make выполняется 3 цели:
-- s21_string.a - собирается статическая библиотека;
-- test - запускаются тесты;
-- gcov_report - оценивается покрытие тестами.
 
-
+## Tests
+Unit-тесты реализованы при помощи [Check](https://libcheck.github.io/check/), отчет о покрытии при помощи [LCOV](https://github.com/linux-test-project/lcov)
+```
+cd String_h/src
+make test
+```
+Отчет о покрытии:
+```
+cd String_h/src
+make gcov_report
+```
