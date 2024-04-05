@@ -15,7 +15,7 @@
 
 ## build
 ```
-cd C2_s21_stringplus-2/src
+cd String_h/src
 make
 ```
 При вызове make выполняется 3 цели:
